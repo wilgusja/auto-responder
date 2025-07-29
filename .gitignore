@@ -1,0 +1,17 @@
+# Ignore .env file
+.env
+
+# Ignore the service account key file
+service_account.json
+
+# Ignore the old responder script
+responder_old.py
+
+# Ignore client configs
+/configs/*.json
+
+# Ignore the DM responder script
+responder_dms.py 
+
+# Ignore the conversations DB update script
+conversation_store.py
