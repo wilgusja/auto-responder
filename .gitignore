@@ -1,17 +1,25 @@
-# Ignore .env file
-.env
+# To upload to Github, use `git save "your commit note here"`
+# To check your git aliases, use: `cat ~/.gitconfig`
 
-# Ignore the service account key file
+# ENV & creds
+.env
 service_account.json
 
-# Ignore the old responder script
-responder_old.py
+# Virtual environment
+.venv/
 
-# Ignore client configs
-/configs/*.json
+# Bytecode
+__pycache__/
+*.pyc
 
-# Ignore the DM responder script
-responder_dms.py 
+# Logs
+logs/*.log
 
-# Ignore the conversations DB update script
-conversation_store.py
+# macOS junk
+.DS_Store
+
+# Config files
+configs/*.json
+
+# Deprecated
+deprecated/*.py

@@ -7,7 +7,7 @@ import argparse
 from dotenv import load_dotenv
 from openai import OpenAI
 from functools import lru_cache
-from comment_store import (
+from auto_responder.comment_store import (
     init_comment_db, log_post, log_comment,
     mark_comment_as_responded, get_recent_post_comments
 )
